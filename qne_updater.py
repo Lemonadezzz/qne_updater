@@ -76,6 +76,8 @@ def execute_update():
 root = tk.Tk()
 root.title("QNE DLL Updater")
 
+root.resizable(False, False)
+
 # Create and place widgets
 # Create and place widgets
 tk.Label(root, text="QNE Bin Folder:").grid(row=0, column=0, padx=5, pady=5, sticky=tk.E)
